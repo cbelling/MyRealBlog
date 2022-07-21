@@ -9,11 +9,11 @@ const BlogPost = () => {
         <div className='max-w-[1240px] m-10'>
             <div className=''>
                 <div className='mb-10'>
-                    <div className='mb-10'>
+                    <div className='mb-10 border-b border-gray-300 my-4'>
                         <p className='uppercase text-xl tracking-widest text-[#49f574]'>
                         Monte Carlo Simulations
                         </p>
-                        <p className='italic'>An Introduction</p>
+                        <p className='italic mb-3'>An Introduction</p>
                     </div>
                     <div className='drop-shadow-2xl p-5'>
                         <Image src="/assets/MonteCarlo.png" width='1000px' height='500px' alt='/' />
