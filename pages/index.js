@@ -2,6 +2,7 @@ import Head from 'next/head'
 import About from '../components/About'
 import Main from '../components/Main'
 import Blog from '../components/Blog'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <Main />
     <About />
     <Blog />
+    <Projects />
     </div>
   )
 }

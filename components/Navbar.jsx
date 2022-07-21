@@ -67,7 +67,10 @@ const Navbar = () => {
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#about'>Blog</Link>
+              <Link href='/#blog'>Blog</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/#projects'>Portfolio</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}

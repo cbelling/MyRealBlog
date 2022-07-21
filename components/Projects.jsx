@@ -3,14 +3,14 @@ import React from 'react';
 import Html from '../public/assets/skills/html.png';
 import Link from 'next/link';
 
-const Blog = () => {
+const Projects= () => {
   return (
-    <div id='blog' className='w-full p-2'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+    <div id='projects' className='w-full p-2'>
+      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full py-16'>
         <p className='text-xl tracking-widest uppercase text-[#49f574]'>
-          Blog
+          Portfolio
         </p>
-        <h2 className='py-4'>Read My Stuff</h2>
+        <h2 className='py-4'>Check Out my Projects</h2>
         <div className='gap-8'>
           <Link href='/post1'>
           <div className='p-3 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer'>
@@ -31,4 +31,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Projects;

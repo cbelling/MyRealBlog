@@ -28,6 +28,19 @@ const BlogPost = () => {
                 website that I was operating. What I thought was just a few small
                 edits turned into a love for programming.
                 </p>
+                <div className='mb-10'>
+                    <div className='mb-3 border-b border-gray-300 mt-5'>
+                        <p className='uppercase text-xl tracking-widest text-[#49f574]'>
+                        About the Author
+                        </p>
+                    </div>
+                    <div className='flex flex-row'>
+                        <div className='flex flex-col l-0'>
+                            <p className='font-bold'>Austin Bellinger</p>
+                            <p>About me paragraph here</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
