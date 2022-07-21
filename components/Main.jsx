@@ -12,13 +12,15 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#31bb6a]'> Austin </span>
           </h1>
-          <h3 className='py-2 text-gray-700'>This is my blog</h3>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I write about probability/statistics, books, 
+            I use this website to record my thoughts and display my projects.
+          </p>
+          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto italic'>
+            Website Code: https://github.com/cbelling/MyRealBlog.git
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/charlesbellinger'
               target='_blank'
               rel='noreferrer'
             >
@@ -27,7 +29,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/cbelling'
               target='_blank'
               rel='noreferrer'
             >
@@ -35,7 +37,7 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/resume'>
+            <Link href='/'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
